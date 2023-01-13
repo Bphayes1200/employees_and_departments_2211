@@ -60,7 +60,7 @@ RSpec.describe Budget do
     budget.add_department(customer_service)
     budget.add_department(sales)
     
-    expect(budget.emloyee_salaries).to eq({
+    expect(budget.employee_salaries).to eq({
       "Bobbi Jaeger" => 100000, 
       "Aaron Tanaka" => 90000, 
       "Brian Hayes" =>  1000000000 
